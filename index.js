@@ -65,7 +65,7 @@ let arr = [
 ]
 
 
-let task_completed = arr.filter(task => task.completed === true);
+let task_completed = arr.filter(atask => atask.completed === true);
 let a = {
     count: 0,
     arr: []
@@ -75,7 +75,7 @@ a.count = task_completed.length;
 console.log(task_completed)
 
 
-let task_incompleted = arr.filter(task => task.completed === false);
+let task_incompleted = arr.filter(btask => btask.completed === false);
 let b = {
     count: 0,
     arr: []
